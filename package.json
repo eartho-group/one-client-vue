@@ -44,7 +44,7 @@
     "es-check": "^6.1.1",
     "eslint": "^8.5.0",
     "gzip-size": "^6.0.0",
-    "husky": "^7.0.4",
+    "husky": "^8.0.3",
     "jest": "^27.4.5",
     "jest-junit": "^13.0.0",
     "oidc-provider": "^7.10.5",
