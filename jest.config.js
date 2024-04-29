@@ -8,18 +8,22 @@ module.exports = {
     '/node_modules/',
     './cypress',
     './jest.config.js',
-    './__tests__'
+    './__tests__',
+    './src/global.ts'
   ],
   reporters: [
     'default',
     ['jest-junit', { outputDirectory: 'test-results/jest' }]
   ],
   coverageReporters: ['lcov', 'text', 'text-summary'],
-  preset: 'ts-jest',
+  preset: 'ts-jest/presets/default-legacy',
   setupFiles: [],
-  globals: {
-    'ts-jest': {
-      tsconfig: './tsconfig.test.json'
-    }
+  transform: {
+    '.*\\.test\\.ts': [
+      'ts-jest',
+      {
+        tsconfig: 'tsconfig.test.json'
+      }
+    ]
   }
 };

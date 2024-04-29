@@ -1,5 +1,5 @@
-import { InjectionKey } from 'vue';
-import { EarthoVueClient } from './interfaces';
+import type { InjectionKey } from 'vue';
+import type { EarthoVueClient } from './interfaces';
 
 /**
  * @ignore

@@ -1,5 +1,3 @@
-import { createEarthoOne, useEartho } from './index';
-
-const EarthoVue = { createEarthoOne, useEartho };
+import * as EarthoVue from './index';
 
 export default EarthoVue;

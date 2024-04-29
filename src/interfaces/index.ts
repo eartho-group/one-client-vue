@@ -1,4 +1,4 @@
 export * from './app-state';
-export * from './one-client-plugin-options';
-export * from './one-client-vue-client';
-export * from './one-client-vue-client-options';
+export * from './eartho-plugin-options';
+export * from './eartho-vue-client';
+export * from './eartho-vue-client-options';

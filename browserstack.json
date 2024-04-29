@@ -3,17 +3,23 @@
     {
       "browser": "chrome",
       "os": "Windows 10",
-      "versions": ["latest"]
+      "versions": [
+        "latest"
+      ]
     },
     {
       "browser": "firefox",
       "os": "Windows 10",
-      "versions": ["latest"]
+      "versions": [
+        "latest"
+      ]
     },
     {
       "browser": "edge",
       "os": "Windows 10",
-      "versions": ["latest"]
+      "versions": [
+        "latest"
+      ]
     }
   ],
   "run_settings": {
